@@ -206,7 +206,7 @@ const DoctorProfileSetting = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group mb-2 card-label">
-                                        <label>1 Hrs Fee</label>
+                                        <label>30 Minutes Fee</label>
                                         <input defaultValue={data?.price} {...register("price")} type='number' className="form-control" />
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ const DoctorProfileSetting = () => {
                     </div>
 
                     <div className="col-md-12">
-                        <div className="card mb-2 p-3 mt-2">
+                        <div className="card mb-2 p-0 mt-2">
                             <h6 className="card-title text-secondary">Services and Specialization</h6>
                             <div className="row form-row">
                                 <div className="form-group mb-2 card-label">
